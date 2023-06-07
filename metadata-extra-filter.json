@@ -1,10 +1,7 @@
 {
   "rules": [
     {
-      "includeClasses": "**"
-    },
-    {
-      "excludeClasses": "java.lang.**"
+      "includeClasses": "com.alibaba.cloud.nacos.**"
     }
   ]
 }

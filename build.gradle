@@ -27,11 +27,11 @@ dependencies {
 
 graalvmNative {
 	agent {
-		defaultMode = "standard"
+		defaultMode = "conditional"
 		modes {
-			standard {
-				// userCodeFilterPath = "metadata-user-code-filter.json"
-				// extraFilterPath = "metadata-extra-filter.json"
+			conditional  {
+				userCodeFilterPath = "metadata-user-code-filter.json"
+				extraFilterPath = "metadata-extra-filter.json"
 			}
 		}
 	}

@@ -1,5 +1,16 @@
 {
   "rules": [
-    {"includeClasses": "com.alibaba.nacos.**"}
+    {
+      "includeClasses": "com.alibaba.nacos.**"
+    },
+    {
+      "excludeClasses": "java.lang.**"
+    },
+    {
+      "excludeClasses": "nacos.HttpRequest"
+    },
+    {
+      "excludeClasses": "nacos.NacosClientTest"
+    }
   ]
 }

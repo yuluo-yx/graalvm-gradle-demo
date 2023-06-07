@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JUnit Jupiter" tests="0" skipped="0" failures="0" errors="0" time="0" hostname="DESKTOP-JJ1AQGL" timestamp="2023-06-07T20:44:49">
+<testsuite name="JUnit Jupiter" tests="2" skipped="0" failures="0" errors="0" time="0.34" hostname="DESKTOP-JJ1AQGL" timestamp="2023-06-07T21:20:07">
 <properties>
 <property name="file.encoding" value="GBK"/>
 <property name="file.separator" value="\"/>
@@ -37,6 +37,18 @@
 <property name="user.name" value="14815"/>
 <property name="user.timezone" value="Asia/Shanghai"/>
 </properties>
+<testcase name="testAddConfig()" classname="nacos.NacosClientTest" time="0.039">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:nacos.NacosClientTest]/[method:testAddConfig()]
+display-name: testAddConfig()
+]]></system-out>
+</testcase>
+<testcase name="testGetConfig()" classname="nacos.NacosClientTest" time="0.011">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:nacos.NacosClientTest]/[method:testGetConfig()]
+display-name: testGetConfig()
+]]></system-out>
+</testcase>
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]
 display-name: JUnit Jupiter

@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'org.graalvm.buildtools.native' version '0.9.22'
+}
+
+group 'indi.yuluo'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven{ url 'https://maven.aliyun.com/repository/public'}
+    mavenCentral()
+    gradlePluginPortal()
+}
+
+
+
+dependencies {
+    testImplementation group: 'com.alibaba.nacos', name: 'nacos-client', version: '2.1.0'
+    testImplementation 'org.assertj:assertj-core:3.22.0'
+    testImplementation 'org.awaitility:awaitility:4.2.0'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+graalvmNative {
+    agent {
+        defaultMode = "conditional"
+        modes {
+            conditional {
+                userCodeFilterPath = "metadata-user-code-filter.json"
+                extraFilterPath = "metadata-extra-filter.json"
+            }
+        }
+    }
+}
+
+test {
+    useJUnitPlatform()
+}

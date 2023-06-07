@@ -1,0 +1,3 @@
+[EXECUTABLE]
+nacos-gradle-tests.exe
+

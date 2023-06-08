@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
 	// https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-discovery
-	implementation group: 'com.alibaba.cloud', name: 'spring-cloud-starter-alibaba-nacos-discovery', version: '2022.0.0.0-RC2'
+	implementation group: 'com.alibaba.cloud', name: 'spring-cloud-starter-alibaba-nacos-config', version: '2022.0.0.0-RC2'
 
 	// testImplementation group: 'com.alibaba.nacos', name: 'nacos-client', version: '2.1.0'
 	testImplementation 'org.assertj:assertj-core:3.22.0'
@@ -27,11 +27,12 @@ dependencies {
 
 graalvmNative {
 	agent {
-		defaultMode = "conditional"
+		// defaultMode = "conditional"
+		defaultMode = "standard"
 		modes {
-			conditional  {
-				userCodeFilterPath = "metadata-user-code-filter.json"
-				extraFilterPath = "metadata-extra-filter.json"
+			standard  {
+//				userCodeFilterPath = "metadata-user-code-filter.json"
+//				extraFilterPath = "metadata-extra-filter.json"
 			}
 		}
 	}

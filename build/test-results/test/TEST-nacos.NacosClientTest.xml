@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="nacos.NacosClientTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-06-07T13:39:12" hostname="DESKTOP-JJ1AQGL" time="0.203">
+<testsuite name="nacos.NacosClientTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-06-08T02:56:52" hostname="DESKTOP-JJ1AQGL" time="0.09">
   <properties/>
-  <testcase name="testAddConfig()" classname="nacos.NacosClientTest" time="0.072"/>
-  <testcase name="testGetConfig()" classname="nacos.NacosClientTest" time="0.081"/>
+  <testcase name="testAddConfig()" classname="nacos.NacosClientTest" time="0.037"/>
+  <testcase name="testGetConfig()" classname="nacos.NacosClientTest" time="0.048"/>
   <system-out><![CDATA[Starting Nacos Server ...
 Nacos server started
 Keep-Alive--->[timeout=60]
@@ -10,9 +10,9 @@ Transfer-Encoding--->[chunked]
 null--->[HTTP/1.1 200]
 Config-Type--->[text]
 Connection--->[keep-alive]
-Last-Modified--->[Wed, 07 Jun 2023 13:08:00 GMT]
+Last-Modified--->[Thu, 08 Jun 2023 02:53:02 GMT]
 Pragma--->[no-cache]
-Date--->[Wed, 07 Jun 2023 13:39:12 GMT]
+Date--->[Thu, 08 Jun 2023 02:56:52 GMT]
 Content-MD5--->[098f6bcd4621d373cade4e832627b4f6]
 Cache-Control--->[no-cache,no-store]
 Content-Security-Policy--->[script-src 'self']

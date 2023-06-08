@@ -1,3 +1,120 @@
 [
-    
+    {
+        "name": "[Ljava.lang.Object;"
+    },
+    {
+        "name": "java.lang.Enum"
+    },
+    {
+        "name": "java.lang.invoke.MethodHandle"
+    },
+    {
+        "name": "java.security.SecureRandomParameters"
+    },
+    {
+        "name": "java.util.HashSet"
+    },
+    {
+        "name": "java.util.LinkedHashSet"
+    },
+    {
+        "name": "java.util.concurrent.ArrayBlockingQueue"
+    },
+    {
+        "name": "java.util.concurrent.locks.AbstractOwnableSynchronizer"
+    },
+    {
+        "name": "java.util.concurrent.locks.AbstractQueuedSynchronizer"
+    },
+    {
+        "name": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject"
+    },
+    {
+        "name": "java.util.concurrent.locks.ReentrantLock"
+    },
+    {
+        "name": "java.util.concurrent.locks.ReentrantLock$NonfairSync"
+    },
+    {
+        "name": "java.util.concurrent.locks.ReentrantLock$Sync"
+    },
+    {
+        "name": "nacos.HttpRequest",
+        "allDeclaredClasses": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllPublicMethods": true
+    },
+    {
+        "allDeclaredClasses": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    
+                ]
+            },
+            {
+                "name": "beforeAll",
+                "parameterTypes": [
+                    
+                ]
+            },
+            {
+                "name": "tearDown",
+                "parameterTypes": [
+                    
+                ]
+            },
+            {
+                "name": "testAddConfig",
+                "parameterTypes": [
+                    
+                ]
+            },
+            {
+                "name": "testGetConfig",
+                "parameterTypes": [
+                    
+                ]
+            }
+        ],
+        "name": "nacos.NacosClientTest",
+        "queryAllDeclaredMethods": true,
+        "allDeclaredFields": true,
+        "queryAllPublicMethods": true
+    },
+    {
+        "name": "sun.security.provider.DRBG",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "java.security.SecureRandomParameters"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "sun.security.provider.SHA",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "name": "sun.security.provider.SHA2$SHA256",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    
+                ]
+            }
+        ]
+    }
 ]

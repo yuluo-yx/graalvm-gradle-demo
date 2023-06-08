@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JUnit Jupiter" tests="2" skipped="0" failures="0" errors="0" time="0.256" hostname="DESKTOP-JJ1AQGL" timestamp="2023-06-07T21:40:16">
+<testsuite name="JUnit Jupiter" tests="2" skipped="0" failures="0" errors="0" time="0.285" hostname="DESKTOP-JJ1AQGL" timestamp="2023-06-08T10:57:56">
 <properties>
 <property name="file.encoding" value="GBK"/>
 <property name="file.separator" value="\"/>
@@ -8,7 +8,7 @@
 <property name="java.endorsed.dirs" value=""/>
 <property name="java.ext.dirs" value=""/>
 <property name="java.io.tmpdir" value="C:\Users\14815\AppData\Local\Temp\"/>
-<property name="java.library.path" value="E:\open_sources\sca2022\nacos-gradle\nacos-gradle\build\native\nativeTestCompile;C:\Windows\system32;C:\Windows;C:\Users\14815\.sdkman\candidates\java\current\bin;E:\Git\mingw64\bin;E:\Git\usr\bin;C:\Users\14815\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\GraalVM\Visual Studio\BuildTools\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64;E:\Go\go-1.19\bin;E:\Java\JDK\JDK8\bin;E:\open_sources\kubectl;C:\Program Files\Docker\Docker\resources\bin;E:\Git\usr\bin;E:\Java\apache_maven\apache-maven-3.9.0\bin;E:\Java\nacos\nacos-2.2.0\bin;E:\python\coda\Scripts;E:\python\coda;E:\web_front\yarn\bin;C:\cygwin64\bin;E:\Java\apache_maven\apache-maven-3.9.0\bin;E:\GraalVM\graalvm-ce-java17-22.3.1\bin;E:\Java\gradle\gradle-8.1-rc-2\bin;E:\web_front\node14;D:\software\wechat-devtools\微信web开发者工具\dll;E:\web_front\node16;E:\python\coda;E:\python\coda\Scripts;E:\python\coda\Library\bin;C:\Program Files\PowerShell\7;E:\protobuf\protoc-3.19.6-win64\bin;E:\Mysql\Mysql\bin;C:\cygwin64\bin;E:\ruby\Ruby31-x64\bin;C:\Users\14815\scoop\shims;C:\Users\14815\AppData\Local\Microsoft\WindowsApps;E:\web_front\Microsoft VS Code\bin;C:\Users\14815\go\bin;E:\Java\IDEA\IntelliJ IDEA 2022.1.2\bin;E:\python\pycharm\PyCharm 2022.1.2\bin;C:\Users\14815\AppData\Local\GitHubDesktop\bin;C:\Users\14815\AppData\Local\Yarn\bin;E:\Go\goland\GoLand 2022.2.3\bin;C:\Users\14815\AppData\Local\JetBrains\Toolbox\scripts;D:\网络安全\nmap-zenmap\Nmap;C:\Users\14815\AppData\Local\Programs\oh-my-posh\bin;C:\Users\14815\go\bin;C:\Users\14815\AppData\Roaming\npm;."/>
+<property name="java.library.path" value="E:\open_sources\sca2022\nacos-gradle\nacos-gradle\build\native\nativeTestCompile;C:\Windows\system32;C:\Windows;C:\Users\14815\.sdkman\candidates\java\current\bin;E:\Git\mingw64\bin;E:\Git\usr\bin;C:\Users\14815\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\GraalVM\Visual Studio\BuildTools\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64;E:\Go\go-1.19\bin;E:\Java\JDK\JDK8\bin;E:\open_sources\kubectl;C:\Program Files\Docker\Docker\resources\bin;E:\Git\usr\bin;E:\Java\apache_maven\apache-maven-3.9.0\bin;E:\Java\nacos\nacos-2.2.0\bin;E:\python\coda\Scripts;E:\python\coda;E:\web_front\yarn\bin;C:\cygwin64\bin;E:\Java\apache_maven\apache-maven-3.9.0\bin;E:\GraalVM\graalvm-ce-java17-22.3.1\bin;E:\Java\gradle\gradle-8.1-rc-2\bin;E:\web_front\node14;D:\software\wechat-devtools\微信web开发者工具\dll;E:\web_front\node16;E:\python\coda;E:\python\coda\Scripts;E:\python\coda\Library\bin;C:\Program Files\PowerShell\7;E:\protobuf\protoc-3.19.6-win64\bin;E:\Mysql\Mysql\bin;C:\cygwin64\bin;E:\ruby\Ruby31-x64\bin;C:\Users\14815\scoop\shims;C:\Users\14815\AppData\Local\Microsoft\WindowsApps;E:\web_front\Microsoft VS Code\bin;C:\Users\14815\go\bin;E:\Java\IDEA\IntelliJ IDEA 2022.1.2\bin;E:\python\pycharm\PyCharm 2022.1.2\bin;C:\Users\14815\AppData\Local\GitHubDesktop\bin;C:\Users\14815\AppData\Local\Yarn\bin;E:\Go\goland\GoLand 2022.2.3\bin;C:\Users\14815\AppData\Local\JetBrains\Toolbox\scripts;D:\网络安全\nmap-zenmap\Nmap;C:\Users\14815\AppData\Local\Programs\oh-my-posh\bin;C:\Users\14815\go\bin;C:\Users\14815\AppData\Roaming\npm;."/>
 <property name="java.specification.name" value="Java Platform API Specification"/>
 <property name="java.specification.vendor" value="Oracle Corporation"/>
 <property name="java.specification.version" value="17"/>
@@ -37,13 +37,13 @@
 <property name="user.name" value="14815"/>
 <property name="user.timezone" value="Asia/Shanghai"/>
 </properties>
-<testcase name="testAddConfig()" classname="nacos.NacosClientTest" time="0.017">
+<testcase name="testAddConfig()" classname="nacos.NacosClientTest" time="0.014">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:nacos.NacosClientTest]/[method:testAddConfig()]
 display-name: testAddConfig()
 ]]></system-out>
 </testcase>
-<testcase name="testGetConfig()" classname="nacos.NacosClientTest" time="0.007">
+<testcase name="testGetConfig()" classname="nacos.NacosClientTest" time="0.009">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:nacos.NacosClientTest]/[method:testGetConfig()]
 display-name: testGetConfig()
